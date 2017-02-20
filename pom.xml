@@ -13,6 +13,7 @@
         <module>iweekends-bussiness-service</module>
         <module>iweekends-quartz</module>
         <module>iweekends-front</module>
+        <module>iweekends-bussiness-service</module>
     </modules>
     <name>iweekends Maven Webapp</name>
     <url>http://maven.apache.org</url>
