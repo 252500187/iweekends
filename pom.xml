@@ -6,13 +6,13 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>iweekends-sever</module>
         <module>iweekends-common</module>
         <module>iweekends-core</module>
         <module>iweekends-dao</module>
         <module>iweekends-admin</module>
         <module>iweekends-quartz</module>
         <module>iweekends-front</module>
+        <module>iweekends-server</module>
     </modules>
     <name>iweekends Maven Webapp</name>
     <url>http://maven.apache.org</url>
@@ -267,11 +267,11 @@
             <artifactId>commons-logging</artifactId>
             <version>${common.logging.version}</version>
         </dependency>
-        <dependency>
-            <groupId>commons-discovery</groupId>
-            <artifactId>commons-discovery</artifactId>
-            <version>${common.discovery.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>commons-discovery</groupId>-->
+            <!--<artifactId>commons-discovery</artifactId>-->
+            <!--<version>${common.discovery.version}</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
@@ -393,11 +393,11 @@
             <version>${httpclient.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.owasp.esapi</groupId>
-            <artifactId>esapi</artifactId>
-            <version>${esapi.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.owasp.esapi</groupId>-->
+            <!--<artifactId>esapi</artifactId>-->
+            <!--<version>${esapi.version}</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>

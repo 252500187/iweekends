@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>iweekends-sever</artifactId>
+    <artifactId>iweekends-server</artifactId>
 
 
 </project>
