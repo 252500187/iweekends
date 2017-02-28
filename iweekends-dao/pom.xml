@@ -29,6 +29,15 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.jiangxianze</groupId>
+            <artifactId>iweekends-common</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
         <!-- 阿里巴巴开源druid数据源 -->
         <dependency>
             <groupId>com.alibaba</groupId>
